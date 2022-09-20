@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3EAE3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+    
+}
+
+.img-section img{
+    width: 350px;
+    height: 560px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.text-section{
+    background-color: #fff;
+    width:  350px;
+    height:  560px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.text-section p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    padding-left: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #A5A5AE;
+}
+.text-section h1{
+    font-family: 'Fraunces', serif;
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+    padding-top: 20px;
+}
+.text-section #deprecate{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-left: 20px;
+    text-align: center;
+    color: #A5A5AE;
+
+}
+.text-section #perfume{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    padding-left: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color:#A5A5AE; 
+
+}
+.text-section .number{
+    font-family: 'Fraunces', serif;
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+    padding-top: 30px;
+    color: #3D8361
+
+}
+
+.text-section .add-btn{
+    width: 80%;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 35px;
+    background-color: #3D8361;
+    font-size: 17px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+
+}
+.text-section .add-btn .bi{
+    padding-right: 10px;
+}
+@media only screen and (max-width: 375px){
+    .container{
+        display: block;
+        width: fit-content; 
+        margin: 50px auto;  
+    }
+    .img-section img{
+        margin-right: 20px;
+        margin-left: 20px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .text-section{
+        margin-right: 20px;
+        margin-left: 20px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+        height: 403px;
+        
+    }
+    .text-section h1{
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .text-section p{
+        padding-top: 20px;
+    }
+    .text-section .number{
+        font-size: 35px;
+    }
+    .text-section .add-btn{
+        margin-top: 20px;
+    }
+    .text-section p{
+        font-size: 14px;
+        line-height: 1.5;
+        word-spacing: 3.9px;
+    }
+    
+    /* .img-section img{
+        height: 280px;
+        object-fit: cover;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        margin-top: 100px;
+        margin-bottom: 0;
+        padding-left: 10px;
+        
+    }
+    .text-section{
+        margin-bottom: 300px;
+        border-top-right-radius: 0;
+    } */
+    
+    
+    
+}
+
